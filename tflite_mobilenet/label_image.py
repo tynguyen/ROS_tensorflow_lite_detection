@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
   input_details = interpreter.get_input_details()
   output_details = interpreter.get_output_details()
-
+  
   # check the type of the input tensor
   floating_model = input_details[0]['dtype'] == np.float32
 
