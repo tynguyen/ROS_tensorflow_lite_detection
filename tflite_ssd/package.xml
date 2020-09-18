@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package>
+  <name>tflite_ssd</name>
+  <version>0.0.1</version>
+  <description> SSD working with tensorflow lite.</description>
+
+  <author email="tynguyen@seas.upenn.edu"></author>
+  <maintainer email="tynguyen@seas.upenn.edu"></maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>

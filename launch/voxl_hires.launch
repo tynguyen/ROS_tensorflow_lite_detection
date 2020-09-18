@@ -1,0 +1,4 @@
+
+
+roslaunch voxl_cam_ros hires.launch
+

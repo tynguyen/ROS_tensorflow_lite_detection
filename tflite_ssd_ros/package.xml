@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>tflite_ssd_ros</name>
+  <version>0.0.1</version>
+  <description>This package is a ROS interface for SSD with tensorflow lite.</description>
+
+  <maintainer email="tynguyen@seas.upenn.edu"></maintainer>
+
+  <author email="tynguyen@seas.upenn.edu"></author>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>darknet_ros_msgs</run_depend>
+  <!--run_depend>trt_yolo</run_depend-->
+
+</package>
