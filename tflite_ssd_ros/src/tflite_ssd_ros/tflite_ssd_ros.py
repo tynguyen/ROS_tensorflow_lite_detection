@@ -5,12 +5,17 @@ from darknet_ros_msgs.msg import BoundingBox, BoundingBoxes
 from utils import timeit_ros
 from sensor_msgs.msg import Image
 import Queue as queue 
-
+from tflite_ssd.tflite_ssd import SSDTflite
 class SSDRos(object):
     def __init__(self):
         rospy.loginfo("[tflite_ssd_ros.py] Init SSD Ros model - Start !")
+        self._bridge = CvBridge()
         self._read_params()
         # Define the SSD model 
+        self.model = 1; 
+        #ssd_model = SSDTflite(args.model_file, args.label_file)
+
+        #ssd_model(img, output_name)
 
         self._init_topics()
         self.msg_queue = queue.Queue(maxsize=5)
